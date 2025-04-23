@@ -9,7 +9,7 @@ pipeline {
 
     stage('build') {
       steps {
-        sh 'sudo apt install apache2 y'
+        sh 'echo " hello dosto"'
       }
     }
 
