@@ -9,7 +9,7 @@ pipeline {
 
     stage('build') {
       steps {
-        sh 'echo " hello dosto"'
+        sh 'sudo apt-get install jenkins'
       }
     }
 
